@@ -1,0 +1,59 @@
+{
+    "DataGrid": {
+        "Key": "RoleList",
+        "Title": "Danh sách nhân viên đo",
+        "ColumnDefs": [
+            {                
+                "Key": "ho_va_ten",
+                "Title": "Họ và tên",                
+                "Align": "center"    
+            },
+            {
+                "Key": "don_vi",
+                "Title": "Đơn vị",                
+                "Align": "center"   
+            },
+            {
+                "Key": "so_dien_thoai",
+                "Title": "SĐT",                
+                "Align": "center"   
+            },
+            {
+                "Key": "email",
+                "Title": "Email",                
+                "Align": "center"   
+            },
+            {
+                "Key": "ngay_test",
+                "Title": "Ngày test",                
+                "Align": "center"   
+            }
+        ],
+        "ActionDefs": [
+            {
+                "Key": "Create", 
+                "Title": "",
+                "Type": "Button",
+                "TitleTooltip": "Thêm mới",
+                "Icon": "plus",
+                "Action": "onClickCreate"
+            },
+            {
+                "Key": "Update", 
+                "Title": "",
+                "Type": "Button",
+                "TitleTooltip": "Sửa",
+                "Icon": "edit",
+                "Action": "onClickUpdate"
+            },
+            {
+                "Key": "Delete", 
+                "Title": "",
+                "Type": "Button",
+                "TitleTooltip": "Xóa",
+                "Icon": "delete",
+                "Action": "onClickDelete"
+            }
+        ]
+    } 
+}

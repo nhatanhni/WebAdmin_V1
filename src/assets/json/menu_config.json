@@ -1,0 +1,76 @@
+{
+    "Menu": [
+        {
+            "code": "Home",
+            "name" : "Trang chủ",
+            "url": "/",
+            "icon": "bi bi-grid"
+        },
+        {
+            "code": "User",
+            "name" : "Người dùng",
+            "url": "/user",
+            "icon": "bi bi-person",
+            "subMenu": [
+                {
+                    "code": "Organ",
+                    "name" : "Cơ cấu tổ chức",
+                    "url": "/co-cau-to-chuc",
+                    "icon": "bi bi-grid"
+                },
+                {
+                    "code": "Account",
+                    "name" : "Tài khoản",
+                    "url": "/tai-khoan",
+                    "icon": "bi bi-grid"
+                },
+                {
+                    "code": "Role",
+                    "name" : "Vai trò",
+                    "url": "/role",
+                    "icon": "bi bi-grid"
+                },
+                {
+                    "code": "Permission",
+                    "name" : "Phân quyền",
+                    "url": "/permission",
+                    "icon": "bi bi-grid"
+                }
+            ]
+        },
+        {
+            "code": "Speed",
+            "name" : "Speed Test",
+            "url": "/user",
+            "icon": "bi bi-speedometer",
+            "subMenu": [
+                {
+                    "code": "ImportFileMNP",
+                    "name" : "Import file MNP",
+                    "url": "/import-file-mnp",
+                    "icon": "bi bi-grid"
+                },
+                {
+                    "code": "NhanVienDo",
+                    "name" : "Nhân viên đo",
+                    "url": "/nhan-vien-do",
+                    "icon": "bi bi-grid"
+                }
+            ]
+        },
+        {
+            "code": "Report",
+            "name" : "Báo cáo",
+            "url": "/report",
+            "icon": "bi bi-file-earmark-text",
+            "subMenu": [
+                {
+                    "code": "MauTestCBCNV",
+                    "name" : "Giám sát mẫu test của CBCNV",
+                    "url": "/mau-test-CBCNV",
+                    "icon": "bi bi-grid"
+                }
+            ]
+        }
+    ]
+}
